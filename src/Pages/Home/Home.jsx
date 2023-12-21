@@ -1,5 +1,6 @@
 
 import Container from './../../Components/Container';
+import TaskFrom from './TaskFrom';
 const Home = () => {
   return (
     <div className='mt-10'>
@@ -10,6 +11,7 @@ const Home = () => {
           <button className='btn btn-secondary'>On Going</button>
           <button className='btn btn-accent'>Complete</button>
         </div>
+        <TaskFrom></TaskFrom>
       </Container>
     </div>
   );
